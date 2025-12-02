@@ -1,0 +1,12 @@
+streamlit
+torch
+torchvision
+torchaudio
+diffusers
+transformers
+accelerate
+peft
+safetensors
+Pillow
+huggingface_hub
+numpy
