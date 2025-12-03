@@ -28,13 +28,14 @@
 ## 使用方式
 
 啟動 Streamlit：
-
+```bash
 streamlit run app.py
+```
 
-操作步驟
+## 操作步驟
 選擇 LoRA 模型（可選）
 輸入 Prompt，例如：
-chiikawa\(a\),a cute bird chiikawa character, anime style
+```chiikawa\(a\),a cute bird chiikawa character, anime style```
 
 調整生成參數：
 Steps（生成步數）：10~200
