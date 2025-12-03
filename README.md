@@ -4,6 +4,7 @@
 
 Agent 對話過程
 [Chiikawa LoRA 訓練指南.pdf](https://github.com/user-attachments/files/23901442/Chiikawa.LoRA.pdf)
+
 由於模型等檔案容量太大，上傳不到github上，結果會以影片的方式呈現
 ---
 
