@@ -85,6 +85,6 @@ https://github.com/user-attachments/assets/5a7f5923-dfa2-43e1-b31c-5b7e143c90ee
 
 ## 注意事項
 
-- 批量生成或高步數生成可能需要較多 GPU 記憶體
+- 批量生成或高步數生成可能需要較多 GPU 記憶體(200steps + 10Guidance Scale, 可能需要30秒才能產生一張圖片)
 - LoRA 權重過高可能導致風格過於固定，可依需求調整
 - 建議使用 512x512 解析度生成圖片，較大解析度需更多 GPU VRAM
