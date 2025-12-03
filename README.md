@@ -51,7 +51,6 @@ streamlit run app.py
 | Steps          | 10 ~ 200    | 30~50   | 推理步數，越高細節越好，但生成越慢       |
 | Guidance Scale | 1.0 ~ 20.0 | 7.5     | 控制生成貼合 prompt 的程度              |
 | Batch Size     | 1 ~ 10      | 1~3     | 一次生成張數，受 GPU VRAM 限制          |
-| LoRA Weight    | 0.0 ~ 2.0   | 0.8~1.0 | 控制 LoRA 對風格的影響力               |
 
 
 點擊 Generate，生成的圖片會即時顯示在網頁上
