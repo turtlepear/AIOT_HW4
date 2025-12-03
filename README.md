@@ -37,10 +37,13 @@ streamlit run app.py
 輸入 Prompt，例如：
 ```chiikawa\(a\),a cute bird chiikawa character, anime style```
 
-調整生成參數：
-Steps（生成步數）：10~200
-Guidance Scale（提示強度）：1~20
-Batch Size（一次生成張數）：1~10
+調整生成參數
+- **Steps（生成步數）**：10 ~ 200  
+  > 控制推理步數，步數越高細節越好，但生成速度會變慢  
+- **Guidance Scale（提示強度）**：1 ~ 20  
+  > 控制生成結果貼合 Prompt 的程度，數值越高越符合輸入描述  
+- **Batch Size（一次生成張數）**：1 ~ 10  
+  > 一次生成的圖片張數，受 GPU VRAM 限制，建議 1~3 張為佳
 
 生成參數快速參考表
 | 參數           | 範圍         | 推薦值   | 說明                                  |
@@ -57,12 +60,12 @@ Batch Size（一次生成張數）：1~10
 
 ## 推薦 Prompt 範例
 
-chiikawa\(a\), Chiikawa sitting with a dog, happy, chibi, cute
-chiikawa\(a\), Chiikawa holding snack, cute pose, pastel colors
-chiikawa\(a\), Chiikawa sleepy, hugging pillow, soft colors
+- `chiikawa(a), Chiikawa sitting with a dog, happy, chibi, cute`
+- `chiikawa(a), Chiikawa holding snack, cute pose, pastel colors`
+- `chiikawa(a), Chiikawa sleepy, hugging pillow, soft colors`
 
 ## 注意事項
 
-批量生成或高步數生成可能需要較多 GPU 記憶體
-LoRA 權重過高可能導致風格過於固定，可依需求調整
-建議使用 512x512 解析度生成圖片，較大解析度需更多 GPU VRAM
+- 批量生成或高步數生成可能需要較多 GPU 記憶體
+- LoRA 權重過高可能導致風格過於固定，可依需求調整
+- 建議使用 512x512 解析度生成圖片，較大解析度需更多 GPU VRAM
