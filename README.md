@@ -67,12 +67,15 @@ streamlit run app.py
 
 -  prompt : `chiikawa\(a\),a cute koala chiikawa character, real style`
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/d2d14d40-031f-4a0c-a2c8-9b21eb40ff73" />
+
 -  prompt : `chiikawa\(a\),a cute cat chiikawa character, real style`
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/89d8d82a-a4a3-479b-a879-8f9083251d41" />
+
 -  prompt : `chiikawa\(a\),a cute rabbit chiikawa character, real style`
 <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/c0863929-d7a9-45be-9a9b-96da94cf4e7b" />
 
-- 網站demo影片
+-  網站demo影片
+  
 https://github.com/user-attachments/assets/5a7f5923-dfa2-43e1-b31c-5b7e143c90ee
 
 
